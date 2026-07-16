@@ -1,5 +1,6 @@
 function getAdults(users) {
     var adults = [];
+    var testVar = "doesn't work";
 
     for (var i = 0; i < users.length; i++) {
         if (users[i].age >= 18) {
