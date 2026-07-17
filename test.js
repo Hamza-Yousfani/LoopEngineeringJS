@@ -1,14 +1,30 @@
-const getAdults = (users) => users
-    .filter(user => user.age >= 18)
-    .map(user => user.name);
+function getAdults(users) {
+    var adults = [];
 
-const users = [
-    { name: "John", age: 25 },
-    { name: "Alice", age: 16 },
-    { name: "Bob", age: 30 }
+    for (var i = 0; i < users.length; i++) {
+        if (users[i].age >= 18) {
+            adults.push(users[i].name);
+        }
+    }
+
+    return adults;
+}
+
+var users = [
+    {
+        name: "John",
+        age: 25
+    },
+    {
+        name: "Alice",
+        age: 16
+    },
+    {
+        name: "Bob",
+        age: 30
+    }
 ];
 
-const result = getAdults(users);
+var result = getAdults(users);
 
 console.log(result);
-console.log("Such a wasteful  folly");
