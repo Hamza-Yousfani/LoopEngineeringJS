@@ -28,4 +28,6 @@ var users = [
 
 var result = getAdults(users);
 
+
 console.log(result);
+console.log("works");
