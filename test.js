@@ -24,7 +24,7 @@ var users = [
         age: 30
     }
 ];
-
+//nlah nbblah blaudsj
 var result = getAdults(users);
 
 console.log(result);
