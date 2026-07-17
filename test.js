@@ -11,4 +11,4 @@ const users = [
 const result = getAdults(users);
 
 console.log(result);
-console.log("Such a frustrsaating folly");
+console.log("Such a wasteful  folly");
