@@ -6,7 +6,7 @@ function getAdults(users) {
             adults.push(users[i].name);
         }
     }
-
+sdfsdfsf
     return adults;
 }
 
